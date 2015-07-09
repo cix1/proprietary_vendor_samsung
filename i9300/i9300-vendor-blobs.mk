@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/camera.vendor.smdk4x12.so:system/lib/hw/camera.vendor.smdk4x12.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so
 
 PRODUCT_COPY_FILES += \
